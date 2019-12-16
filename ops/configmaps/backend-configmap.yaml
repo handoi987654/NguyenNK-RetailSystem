@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: retail-system-swd-backend
+  namespace: retail-system-swd
+data:
+  sqlserver-dbname: "RetailSystem"
+  sqlserver-host: "10.130.97.218"
+  sqlserver-port: "1433"
+  sqlserver-username: "sa"
+  sqlserver-password: "wZ92LzEZy6gtfpPA"

@@ -1,0 +1,14 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: retail-system-swd-backend
+  namespace: retail-system-swd
+spec:
+  rules:
+  - host: retail-api.tvvs.xyz
+    http:
+      paths:
+      - backend:
+          serviceName: retail-system-swd-backend
+          servicePort: 8080
+        path: /
