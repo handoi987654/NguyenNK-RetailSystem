@@ -5,7 +5,7 @@ metadata:
   namespace: retail-system-swd
 spec:
   rules:
-  - host: api.tvvs.xyz
+  - host: retail-api.tvvs.xyz
     http:
       paths:
       - backend:

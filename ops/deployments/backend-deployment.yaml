@@ -19,7 +19,7 @@ spec:
         app: retail-system-swd-backend
     spec:
       containers:
-      - image: blackheat/retail-system-swd:build-20191212163818
+      - image: blackheat/retail-system-swd:build-20191216101146
         name: retail-system-swd-backend
         env:
         - name: SQLSERVER_HOST
